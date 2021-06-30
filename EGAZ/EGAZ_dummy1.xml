@@ -1,0 +1,20 @@
+<ANALYSIS_SET>
+  <ANALYSIS alias="" center_name="" broker_name="EGA" analysis_center="" accession="">
+    <IDENTIFIERS>
+      <PRIMARY_ID>Foo</PRIMARY_ID>
+    </IDENTIFIERS>
+    <TITLE>Bar</TITLE>
+    <SAMPLE_REF refname="Foo">
+      <IDENTIFIERS>
+        <PRIMARY_ID>Bar</PRIMARY_ID>
+      </IDENTIFIERS>
+    </SAMPLE_REF>
+    <ANALYSIS_TYPE>
+      <SEQUENCE_VARIATION>
+        <ASSEMBLY>
+          <STANDARD refname="GRCh37"/>
+        </ASSEMBLY>
+      </SEQUENCE_VARIATION>
+    </ANALYSIS_TYPE>
+  </ANALYSIS>
+</ANALYSIS_SET>
