@@ -154,8 +154,8 @@ sub assign_ref_gen {
     # Checking GenBank accesions with regex
     # https://www.ncbi.nlm.nih.gov/grc/human/data?asm=GRCh3[78]
     $ref =
-        ( $ref =~ /CM000\d{3}.1/ ) ? 'GRCh37'
-      : ( $ref =~ /CM000\d{3}.2/ ) ? 'GRCh38'
+        ( $ref =~ /^CM000\d{3}.1$/ ) ? 'GRCh37'
+      : ( $ref =~ /^CM000\d{3}.2$/ ) ? 'GRCh38'
       :                              $ref;
     if ( exists $genome{$ref} ) {
         $out  = $genome{$ref};
